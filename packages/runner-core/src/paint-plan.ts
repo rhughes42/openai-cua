@@ -22,7 +22,7 @@ export function buildPaintRunnerPrompt(prompt: string) {
 
 export function buildPaintCodeInstructions(currentUrl: string) {
   return [
-    "You are operating a persistent Playwright browser session for a GPT-5.4 CUA demo harness.",
+    "You are operating a persistent Playwright browser session for a GPT-5.5 CUA demo harness.",
     "You must use the exec_js tool before you answer.",
     `The paint app is already open at ${currentUrl}.`,
     "Use the operator prompt as the source of truth.",

@@ -1,6 +1,6 @@
-# GPT-5.4 CUA Sample App
+# GPT-5.5 CUA Sample App
 
-TypeScript sample app for browser-focused computer-use workflows with GPT-5.4. The repo includes:
+TypeScript sample app for browser-focused computer-use workflows with GPT-5.5. The repo includes:
 
 - `apps/demo-web`: a Next.js operator console for starting runs and reviewing screenshots, events, and replay artifacts
 - `apps/runner`: a Fastify runner that manages mutable workspaces, browser sessions, SSE, and replay bundles
@@ -129,13 +129,13 @@ Runner:
 - `OPENAI_API_KEY`
 - `HOST` (default `127.0.0.1`)
 - `PORT` (default `4001`)
-- `CUA_DEFAULT_MODEL` (default `gpt-5.4`)
+- `CUA_DEFAULT_MODEL` (default `gpt-5.5`)
 - `CUA_RESPONSES_MODE` (`auto`, `fallback`, or `live`)
 
 Web:
 
 - `RUNNER_BASE_URL` (default `http://127.0.0.1:4001`)
-- `NEXT_PUBLIC_CUA_DEFAULT_MODEL` (default `gpt-5.4`)
+- `NEXT_PUBLIC_CUA_DEFAULT_MODEL` (default `gpt-5.5`)
 - `NEXT_PUBLIC_CUA_DEFAULT_MAX_RESPONSE_TURNS` (default `24`)
 
 See [.env.example](.env.example) for a minimal local template.
