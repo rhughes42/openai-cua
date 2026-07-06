@@ -1,6 +1,6 @@
-# GPT-5.4 CUA Sample App
+# GPT-5.5 CUA Sample App
 
-TypeScript sample app for browser-focused computer-use workflows with GPT-5.4. The repo includes:
+TypeScript sample app for browser-focused computer-use workflows with GPT-5.5. The repo includes:
 
 - `apps/demo-web`: a Next.js operator console for starting runs and reviewing screenshots, events, and replay artifacts
 - `apps/runner`: a Fastify runner that manages mutable workspaces, browser sessions, SSE, and replay bundles
